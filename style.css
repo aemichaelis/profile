@@ -1,0 +1,86 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  font-family: Basier Circle;
+  font-style: normal;
+  display: flex;
+  letter-spacing: 0.0025em;
+  background: #EAEAF4;
+  width: 300px;
+}
+
+.container {
+  width: 964px;   /* This sets the width */
+  align-self: center /* This automatically sets left/right margins */
+}
+
+.card {
+  margin: 30px;
+  padding: 32px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #0C0C0C;
+}
+
+h1 {
+  color: #0C0C0C;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #0C0C0C;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  color: #0C0C0C;
+  line-height: 1.5px;
+}
+
+#button { 
+  border-radius: 6px;
+  border: none;
+  text-align: center
+  text: none;
+  fill: #606CFB;
+  font-color: white;
+}
+
+#image {
+  border-radius: 8px;
+}
+
+#link {
+ color: #606CFB;
+}
+
+
+
+
+
